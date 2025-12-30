@@ -46,7 +46,7 @@ const Home = () => {
           <div className="animate-fade-up text-center" style={{ animationDelay: '0.1s' }}>
 
             <SplitText
-              text=" NAHWA ALMUSTAQBAL"
+              text="NAHWA  ALMUSTAQBAL"
               className="md:text-6xl text-2xl font-bold text-white  text-center"
               delay={100}
               duration={0.6}

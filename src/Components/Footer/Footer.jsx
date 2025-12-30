@@ -36,10 +36,10 @@ const Footer = () => {
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-3">Services</h3>
                     <ul class="space-y-2 md:text-md text-sm">
-                        <li><a href="#aboutus" class="hover:text-white">About</a></li>
-                        <li><a href="#services" class="hover:text-white">Services</a></li>
-                        <li><a href="#projects" class="hover:text-white">Projects</a></li>
-                        <li><a href="#contact" class="hover:text-white"> Contact</a></li>
+                        <li><a href="#aboutus" class="hover:text-white">المشاريع الصناعية</a></li>
+                        <li><a href="#services" class="hover:text-white">المشاريع التجارية</a></li>
+                        <li><a href="#projects" class="hover:text-white">المشاريع السكنية</a></li>
+                        <li><a href="#contact" class="hover:text-white"> مشاريع البنية التحتية</a></li>
                     </ul>
                 </div>
 
