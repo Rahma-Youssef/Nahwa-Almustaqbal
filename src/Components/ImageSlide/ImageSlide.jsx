@@ -93,9 +93,7 @@ const images = [
 const ImageSlide = () => {
 
   return (
-    // <div className="flex items-center justify-center ">
-    //   <ImageSwiper images={images} />
-    // </div>
+
      <div className="md:w-full w-[95%] max-w-4xl mx-auto">
       <div className=" flex flex-col justify-center   mx-auto rounded-lg space-y-4">
         <div className="p-2">

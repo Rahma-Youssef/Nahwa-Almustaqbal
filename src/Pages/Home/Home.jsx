@@ -12,7 +12,7 @@ const handleAnimationComplete = () => {
 
 const Home = () => {
   return (
-    <section className="relative md:min-h-screen h-100vh flex items-center justify-center overflow-hidden" id='home'>
+  <section className="relative md:min-h-screen h-screen flex items-center justify-center overflow-hidden" id='home'>
       {/* Background Image */}
       <div className="absolute inset-0">
         {/* Background image */}
