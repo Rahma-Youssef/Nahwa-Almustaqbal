@@ -17,13 +17,13 @@ const Contact = () => {
                     لأي استفسارات أو معلومات إضافية، يمكنكم التواصل معنا من خلال التفاصيل التالية
                 </p>
 
-                <div className="flex justify-between flex-col md:flex-row gap-8">
+                <div className="flex justify-between  flex-col md:flex-row gap-8">
 
                     <div className="space-y-6 md:w-1/2 ">
                         <div className="flex items-center gap-5 bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
                             <Icon icon="line-md:phone" width="24" height="24" className='text-blue-950 bg-[#F4A711] rounded-lg p-2 w-10 h-10' />
                             <div>
-                                <h4 className="text-xl font-semibold mb-2">Eng. Ahmed Mounir</h4>
+                                <h4 className="md:text-xl font-semibold mb-2">Eng. Ahmed Mounir</h4>
                                 <p className="flex items-center gap-2 font-semibold font-mono text-blue-700">
                                     <a href="https://wa.me/971582598387" target='_blank' className="">+971582598387</a>
 
@@ -33,42 +33,48 @@ const Contact = () => {
                         <div className="flex items-center gap-5 bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
                             <Icon icon="line-md:phone" width="24" height="24" className='text-blue-950 bg-[#F4A711] rounded-lg p-2 w-10 h-10' />
                             <div>
-                                <h4 className="text-xl font-semibold mb-2">Eng. Ashraf Zain</h4>
+                                <h4 className="md:text-xl font-semibold mb-2">Eng. Ashraf Zain</h4>
                                 <p className="flex items-center gap-2 font-semibold font-mono text-blue-700">
                                     <a href="https://wa.me/971589803373" target='_blank' className="">+971589803373</a>
 
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
-                            <div className='flex items-center gap-5'>
-                                <Icon icon="basil:location-outline" width="24" height="24" className='text-blue-950 bg-[#F4A711] rounded-lg p-2 w-10 h-10' />                            <div>
-                                    <h4 className="text-xl font-semibold mb-2">Address</h4>
-                                </div>
-                            </div>
-                            <div className="mt-2">
-                                <p className="  font-semibold font-mono text-right">
+                        <div className="flex items-center gap-5 bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
 
-                                    الفجيره <br />
-                                    شارع حمد بن عبد الله، منطقة تون سنتر <br />
-                                    بناية الفيوا سابقا، الدور الخامس، مكتب رقم 502
+                            <Icon icon="ic:outline-email" width="24" height="24" className='text-blue-950 bg-[#F4A711] rounded-lg p-2 w-10 h-10' />
+                            <div>
+                                <h4 className="md:text-xl  font-semibold mb-2 text-left">Email</h4>
+                                <p className="flex items-center gap-2 font-semibold md:text-md   text-sm font-mono text-blue-700">
+                                    <a href="https://wa.me/971589803373" target='_blank' className="">nahwa.almostaqbal@gmail.com</a>
+
                                 </p>
                             </div>
                         </div>
+                    </div>
+
+
+                    <div className={`container flex flex-col justify-content-center items-center gap-5  md:w-1/2 `}>
+                        <div className="flex flex-col bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+                            <div className='flex items-center gap-5'>
+                                <Icon icon="basil:location-outline" width="24" height="24" className='text-blue-950 bg-[#F4A711] rounded-lg p-2 w-10 h-10' />                            <div>
+                                    <h4 className="md:text-xl font-semibold mb-2">Address</h4>
+                                </div>
+                            </div>
+                            <div className="mt-2">
+                                <p className="  font-semibold font-mono text-left">
+                                    Amr Bin Al A'as St - Hay Mogader - Sharjah - United Arab Emirates
+                                </p>
+                            </div>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2282618820714!2d56.355033000000006!3d25.0602514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef4fbd049e774ed%3A0xcb934695c0d19a35!2z2YbYrdmIINin2YTZhdiz2KrZgtio2YQg2YTZhNmF2YLYp9mI2YTYp9iqINin2YTYudin2YXYqQ!5e0!3m2!1sen!2seg!4v1767081635500!5m2!1sen!2seg" className={`border-0 rounded-lg w-full md:h-50 h-40 `} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 
 
 
                     </div>
 
-
-                    <div className={`container d-flex justify-content-center items-center py-4   md:w-1/2 `}>
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3612.3844074089866!2d56.32045857537945!3d25.122691577758925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDA3JzIxLjciTiA1NsKwMTknMjIuOSJF!5e0!3m2!1sen!2seg!4v1754143344402!5m2!1sen!2seg" className={`border-0 rounded-lg w-full md:h-100 h-50 `} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-
-                    </div>
                 </div>
             </div>
         </section>
