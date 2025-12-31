@@ -53,7 +53,7 @@ const Footer = () => {
                             <a href="https://wa.me/971589803373" target='_blank' className="text-yellow-500 font-semibold">+971589803373</a>
                         </li>
                         <li>
-                            <a href="https://wa.me/971589803373" target='_blank' className="text-yellow-500 font-semibold">+971589803373</a>
+                            <a href="https://wa.me/971582598387" target='_blank' className="text-yellow-500 font-semibold">+971582598387</a>
                         </li>
                     </ul>
                 </div>

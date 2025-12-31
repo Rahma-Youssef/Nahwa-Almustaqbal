@@ -46,7 +46,7 @@ const Contact = () => {
                             <div>
                                 <h4 className="md:text-xl  font-semibold mb-2 text-left">Email</h4>
                                 <p className="flex items-center gap-2 font-semibold md:text-md   text-sm font-mono text-blue-700">
-                                    <a href="https://wa.me/971589803373" target='_blank' className="">nahwa.almostaqbal@gmail.com</a>
+                                    <a href="mailto:nahwa.almostaqbal@gmail.com" target='_blank' className="">nahwa.almostaqbal@gmail.com</a>
 
                                 </p>
                             </div>
