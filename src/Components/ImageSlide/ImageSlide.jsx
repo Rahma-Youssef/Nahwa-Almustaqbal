@@ -39,7 +39,7 @@ const projects = [
   {
     id: 2,
     title: "Construction",
-    cover: "/images/construction/construction05.jpg",
+    cover: "/images/construction/construction09.jpeg",
     images: [
       "/images/construction/construction01.jpg",
       "/images/construction/construction02.jpg",
