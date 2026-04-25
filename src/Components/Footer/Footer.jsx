@@ -10,7 +10,7 @@ const Footer = () => {
                 <div>
                     <div className="flex items-center gap-2">
                         <img
-                            src="public/images/logoimage.png"
+                            src="/images/logoimage.png"
                             alt="logo"
                             className="md:w-12 w-8 transition-all duration-300"
                         />
