@@ -41,9 +41,7 @@ const projects = [
     title: "Construction",
     cover: "/images/construction/construction09.jpeg",
     images: [
-      "/images/construction/construction01.jpg",
-      "/images/construction/construction02.jpg",
-      "/images/construction/construction03.jpg",
+
       "/images/construction/construction09.jpeg",
       "/images/construction/construction10.jpeg",
       "/images/construction/construction11.jpeg",
