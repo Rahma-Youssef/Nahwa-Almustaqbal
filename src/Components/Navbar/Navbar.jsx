@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img
-              src="/images/logoimage.png"
+              src="/images/logoimage.webp"
               alt="logo"
               className="md:w-12 w-8 transition-all duration-300"
             />
