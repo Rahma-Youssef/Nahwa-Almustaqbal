@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     title: "Interior Design",
-    cover: "/images/interior/interior55.jpg",
+    cover: "/images/interior/interior55.webp",
     images: [
       "/images/interior/interior31.webp",
       "/images/interior/interior20.webp",
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 3,
     title: "Exterior Design",
-    cover: "/images/exterior/exterior23.jpg",
+    cover: "/images/exterior/exterior23.webp",
     images: [
       "/images/exterior/exterior01.jpeg",
       "/images/exterior/exterior02.jpeg",
